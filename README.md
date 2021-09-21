@@ -274,7 +274,7 @@ function GameList(props) {
 export default GameList;
 ```
 
-Since we are pulling our data the const we declared in GamesListPage.jsx, we also need to modify our Game.jsx starter code to be:
+We also need to modify our Game.jsx starter code to be:
 
 ```js
 function Game(props) {
