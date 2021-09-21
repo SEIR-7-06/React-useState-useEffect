@@ -31,9 +31,6 @@ This lesson will cover the use case of hooks and demonstrate how to use the two 
 
 ## Set Up
 
-Set up for this lesson will be a little more involved. First we'll create a new branch and pull down the solution code. After that branch has been created we can then create a second branch to practice using hooks by refactoring one of the gamelib components. 
-
-*Note: You will need to start up your gamelib-api so your react frontend can request data.*
 ```
 $ mkdir react-hooks
 $ cd react-hooks
