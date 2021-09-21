@@ -276,18 +276,18 @@ export default GameList;
 
 Since we are pulling our data the const we declared in GamesListPage.jsx, we also need to modify our Game.jsx starter code to be:
 
-```
+```js
 function Game(props) {
   console.log(props);
 
   return (
     <div>
       <h3>{props.title}</h3>
-      {/* <h3>{props.gameObj.title}</h3> */}
+      {/* <h3>{props.title}</h3> */}
       <img 
         className="game-img" 
         src={props.coverArtUrl} 
-        // src={props.gameObj.coverArtUrl} 
+        // src={props.coverArtUrl} 
         alt="the art for a game" 
       />
     </div>
