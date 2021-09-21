@@ -274,7 +274,7 @@ function GameList(props) {
 export default GameList;
 ```
 
-We also need to modify our Game.jsx starter code to be:
+We also need to modify our `src/pages/GamesListPage.jsx` as follows:
 
 ```js
 function Game(props) {
