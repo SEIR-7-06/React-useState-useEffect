@@ -283,11 +283,11 @@ function Game(props) {
   return (
     <div>
       <h3>{props.title}</h3>
-      {/* <h3>{props.title}</h3> */}
+      {/* <h3>{props.gameObj.title}</h3> */}
       <img 
         className="game-img" 
         src={props.coverArtUrl} 
-        // src={props.coverArtUrl} 
+        // src={props.gameObj.coverArtUrl} 
         alt="the art for a game" 
       />
     </div>
